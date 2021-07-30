@@ -1,1 +1,0 @@
-Use this folder to save models/files that should be shared externally. 
