@@ -1,0 +1,1 @@
+This folder contains templates and gobys for Vissim Figures.

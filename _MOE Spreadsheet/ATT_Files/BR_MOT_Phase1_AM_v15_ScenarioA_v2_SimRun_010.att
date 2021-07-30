@@ -1,0 +1,30 @@
+$VISION
+* File:		K:\NVA_Transit\110293002_Benning_Streetcar\Production\2b_Traffic\VISSIM\04-MOT\01_Phase 1\AM\05-Outputs\v15_ScenarioA_v2\BR_MOT_Phase1_AM_v15_ScenarioA_v2.inpx
+* Comment:	Starting at 6:00 AM to 10:00 AM
+* Date:		7/9/2021 3:00:08 AM
+* PTV Vissim:	11.00 [14]
+* 
+* Table: Simulation Runs
+* 
+* NO: No, Number (Unique number of the simulation run)
+* TIMESTAMP: Timestamp, Timestamp (Date and time the simulation starts)
+* RANDSEED: RandSeed, Random seed (Random seed specified in the simulation parameters)
+* STARTDATE: StartDate, Start date (Start date specified in the simulation parameters)
+* STARTTM: StartTm, Start time (Start time specified in the simulation parameters)
+* SIMEND: SimEnd, Simulation end (Time in seconds after the start at which the simulation was ended) [s]
+* VISSIMVER: VissimVer, Vissim version (Program version installed)
+* 
+* No; Timestamp; RandSeed; StartDate; StartTm; SimEnd; VissimVer
+*
+$SIMULATIONRUN:NO;TIMESTAMP;RANDSEED;STARTDATE;STARTTM;SIMEND;VISSIMVER
+1;2021-07-08 19:38:54;100;;06:00:00;14400.0;11.00 - 14 [91844]
+2;2021-07-08 20:22:29;101;;06:00:00;14400.0;11.00 - 14 [91844]
+3;2021-07-08 21:06:11;102;;06:00:00;14400.0;11.00 - 14 [91844]
+4;2021-07-08 21:50:32;103;;06:00:00;14400.0;11.00 - 14 [91844]
+5;2021-07-08 22:35:49;104;;06:00:00;14400.0;11.00 - 14 [91844]
+6;2021-07-08 23:20:26;105;;06:00:00;14400.0;11.00 - 14 [91844]
+7;2021-07-09 00:02:41;106;;06:00:00;14400.0;11.00 - 14 [91844]
+8;2021-07-09 00:47:35;107;;06:00:00;14400.0;11.00 - 14 [91844]
+9;2021-07-09 01:32:15;108;;06:00:00;14400.0;11.00 - 14 [91844]
+10;2021-07-09 02:17:20;109;;06:00:00;14400.0;11.00 - 14 [91844]
+

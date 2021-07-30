@@ -1,0 +1,25 @@
+$VISION
+* File:		K:\NVA_Transit\110293002_Benning_Streetcar\Production\2b_Traffic\VISSIM\04-MOT\01_Phase 1\AM\05-Outputs\v15_ScenarioA_v2\BR_MOT_Phase1_AM_v15_ScenarioA_v2.inpx
+* Comment:	Starting at 6:00 AM to 10:00 AM
+* Date:		7/9/2021 3:00:12 AM
+* PTV Vissim:	11.00 [14]
+* 
+* Table: Data Collection Results
+* 
+* SIMRUN: SimRun, Simulation run (Number of simulation run)
+* TIMEINT: TimeInt, Time interval
+* DATACOLLECTIONMEASUREMENT: DataCollectionMeasurement, Data collection measurement
+* VEHS(ALL): Vehs(All), Vehicles (All) (Count of vehicles of the the data collection measurement in the interval)
+* VEHS(10): Vehs(10), Vehicles (10) (Count of vehicles of the the data collection measurement in the interval)
+* VEHS(30): Vehs(30), Vehicles (30) (Count of vehicles of the the data collection measurement in the interval)
+* SPEEDAVGARITH(ALL): SpeedAvgArith(All), Speed (arithmetic average) (All) (Arithmetic mean of the speed of all vehicles of this data collection measurement for this interval) [mph]
+* SPEEDAVGARITH(10): SpeedAvgArith(10), Speed (arithmetic average) (10) (Arithmetic mean of the speed of all vehicles of this data collection measurement for this interval) [mph]
+* SPEEDAVGARITH(30): SpeedAvgArith(30), Speed (arithmetic average) (30) (Arithmetic mean of the speed of all vehicles of this data collection measurement for this interval) [mph]
+* SPEEDAVGHARM(ALL): SpeedAvgHarm(All), Speed (harmonic average) (All) (Harmonic mean of the speed of all vehicles of this data collection measurement for this interval) [mph]
+* SPEEDAVGHARM(10): SpeedAvgHarm(10), Speed (harmonic average) (10) (Harmonic mean of the speed of all vehicles of this data collection measurement for this interval) [mph]
+* SPEEDAVGHARM(30): SpeedAvgHarm(30), Speed (harmonic average) (30) (Harmonic mean of the speed of all vehicles of this data collection measurement for this interval) [mph]
+* 
+* SimRun; TimeInt; DataCollectionMeasurement; Vehs(All); Vehs(10); Vehs(30); SpeedAvgArith(All); SpeedAvgArith(10); SpeedAvgArith(30); SpeedAvgHarm(All); SpeedAvgHarm(10); SpeedAvgHarm(30)
+*
+$DATACOLLECTIONMEASUREMENTEVALUATION:SIMRUN;TIMEINT;DATACOLLECTIONMEASUREMENT;VEHS(ALL);VEHS(10);VEHS(30);SPEEDAVGARITH(ALL);SPEEDAVGARITH(10);SPEEDAVGARITH(30);SPEEDAVGHARM(ALL);SPEEDAVGHARM(10);SPEEDAVGHARM(30)
+
