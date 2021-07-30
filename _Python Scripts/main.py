@@ -35,7 +35,7 @@ l_s20 = []
 # =============================================================================
 # INPUT: Adjust these True/False variables based on what needs to be run
 # =============================================================================
-define_run = input("USER INPUT - Define Run Type: 1 (Run Vissim), 2 (Just MOEs), 3 (Testing):  ")
+define_run = int(input("USER INPUT - Define Run Type: 1 (Run Vissim), 2 (Just MOEs), 3 (Testing):  "))
 #define_run = 3 # 1 - run everything, 2 - process moe's, 3 - testing
 
 if define_run == 1:
