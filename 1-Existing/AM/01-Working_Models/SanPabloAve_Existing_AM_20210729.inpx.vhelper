@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<VISSIMFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RoutingStartTime>1800</RoutingStartTime>
+  <PartialRoutingStartTime>0</PartialRoutingStartTime>
+  <StartTime>1800</StartTime>
+  <EndTime>3600</EndTime>
+  <LinkEvalStartTime>0</LinkEvalStartTime>
+  <NodeEvalStartTime>0</NodeEvalStartTime>
+  <TTStartTime>0</TTStartTime>
+  <DataCollectionStartTime>0</DataCollectionStartTime>
+  <QueueCounterEvalStartTime>0</QueueCounterEvalStartTime>
+  <PathBuild1>70</PathBuild1>
+  <PathBuild2>85</PathBuild2>
+  <PathBuildIncrease1>300</PathBuildIncrease1>
+  <PathBuildIncrease2>310</PathBuildIncrease2>
+  <RoutingStartDistance>5</RoutingStartDistance>
+  <RoutingEndDistance>-1</RoutingEndDistance>
+  <LayoutLaneWidth>15</LayoutLaneWidth>
+  <LayoutWidth>1200</LayoutWidth>
+  <LayoutTravelTimeWidth>1200</LayoutTravelTimeWidth>
+  <NodeLayoutWidth>1200</NodeLayoutWidth>
+  <LayoutCellWidth>50</LayoutCellWidth>
+  <NodeHorizontalGapStartRow>0</NodeHorizontalGapStartRow>
+  <NodeVerticalGapStartColumn>0</NodeVerticalGapStartColumn>
+  <SCExitSignFontSize>25</SCExitSignFontSize>
+  <SCSpeedFontSize>18</SCSpeedFontSize>
+  <SCLabelTimeFontSize>14</SCLabelTimeFontSize>
+  <SCLabelRampFontSize>18</SCLabelRampFontSize>
+  <SCColorRectWidth>30</SCColorRectWidth>
+  <SCColorRectHeight>30</SCColorRectHeight>
+  <SCColorLegendFontSize>20</SCColorLegendFontSize>
+  <ExcludeDCM>false</ExcludeDCM>
+  <ExcludeTT>false</ExcludeTT>
+  <ExcludeTimePeriod>false</ExcludeTimePeriod>
+  <LabelSCStartHour>07</LabelSCStartHour>
+  <LabelSCStartMinute>00</LabelSCStartMinute>
+  <SegmentLayout>EB</SegmentLayout>
+  <ProjectColors />
+  <ProjectLinksHiddenLabel />
+  <ProjectLinksShownLabel />
+  <VHelperVersion>VHelper 3.5.1 - C:\...\San Pablo - Shared Documents\VISSIM\Existing\AM\SanPabloAve_Existing_AM_20210729.inpx</VHelperVersion>
+  <VISSIMVersion>11.00 - 14 [91844]--603</VISSIMVersion>
+  <UseNodesFromMatrix>true</UseNodesFromMatrix>
+  <NodeMatrix />
+  <FreewayPath />
+  <VehicleRecordPath1 />
+  <VehicleRecordPath2 />
+  <FreewayPathExcludeDCM />
+  <FreewayPathExcludeTT />
+  <FreewayPathExcludeTP />
+  <NodeOverrideTurns />
+  <SelectedNodestoDraw />
+  <VolumeVehicleType>All</VolumeVehicleType>
+  <OutputLayoutPath />
+  <CopyResultPath />
+  <KeepOnlyAVGRow>false</KeepOnlyAVGRow>
+  <RemoveRunResults>true</RemoveRunResults>
+  <LoadFavorLinkType>Behavior</LoadFavorLinkType>
+  <BuildRoutingStartID>1</BuildRoutingStartID>
+  <OptimizeSplit />
+  <OptimizeOffset />
+  <BehaviorCap>
+    <item>
+      <key>
+        <int>1</int>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>2</int>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>3</int>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>5</int>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>6</int>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>7</int>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>8</int>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>9</int>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+  </BehaviorCap>
+</VISSIMFile>
