@@ -11,14 +11,14 @@ from vissim_run_functions import *
 # =============================================================================
 # INPUT: Indicate versions to run for each scenario:
 # =============================================================================
-l_s01 = ['v0'] # 1-Existing AM
+l_s01 = ['2021-07-30'] # 1-Existing AM
 l_s02 = [] # 1-Existing PM
-l_s03 = [] # 2-No-Build AM
-l_s04 = [] # 2-No-Build PM
-l_s05 = [] # 3-Build 1 AM
-l_s06 = [] # 3-Build 1 PM
-l_s07 = [] # 4-Build 2 AM
-l_s08 = [] # 4-Build 2 PM
+l_s03 = [] # 2-Build 1 AM
+l_s04 = [] # 2-Build 1 PM
+l_s05 = [] # 3-Build 2 AM
+l_s06 = [] # 3-Build 2 PM
+l_s07 = [] 
+l_s08 = [] 
 l_s09 = [] 
 l_s10 = [] 
 l_s11 = [] 
@@ -66,15 +66,15 @@ elif define_run == 3:  #Testing
 # PROJECT SPECIFIC INPUTS
 # =============================================================================
  
-project_name = 'Project'  # Shortened Name used for filenaming
+project_name = 'SanPabloAve'  # Shortened Name used for filenaming
 
 # File paths and file names ===================================================
-open_path_start = r'C:\Users\britton.hammit\Documents\Python\VISSIM-File-Structure'
+open_path_start = r'C:\Users\Britton.Hammit\Documents\GitHub\Vissim-SPA'
 
 # Simulation parameters =======================================================
 no_runs = 10  # Number of Random Seeds
 vissim_version = "Vissim.Vissim-64.1100"  # Using 11.00-14, Last updated 2019-11-19 (Most recent update at start of project)
-sim_run_time = 2400  # Seeding, Peak Hour, Shoulder
+sim_run_time = 9000  # Seeding, Peak Hour, Shoulder
 random_seed_start = 100
 random_seed_increment = 1
 
@@ -89,18 +89,18 @@ data_collection_active = False
 data_collection_setup = [0,99999,99999] # from time, to time, interval
 
 node_collection_active = True
-node_collection_setup_AM = [1800,5400,3600] # from time, to time, interval
-node_collection_setup_PM = [1800,5400,3600]
+node_collection_setup_AM = [1800,9000,7200] # from time, to time, interval
+node_collection_setup_PM = [1800,9000,7200]
 
 travel_time_collection_active = True
-travel_time_collection_setup = [0,7200,900] # from time, to time, interval
+travel_time_collection_setup = [0,9000,900] # from time, to time, interval
 
 veh_net_performance_active = True
-veh_net_performance_setup = [0,7200,7200] 
+veh_net_performance_setup = [1800,9000,7200] 
 
-link_collection_active = False
-link_collection_setup_AM = [0,99999,99999] # from time, to time, interval
-link_collection_setup_PM = [0,99999,99999]
+link_collection_active = True  # Keep true to get speed heat maps
+link_collection_setup_AM = [1800,9000,7200] # from time, to time, interval
+link_collection_setup_PM = [1800,9000,7200]
 
 queue_collection_active = False  # Queue Counters
 queue_collection_setup = [0,99999,99999] # from time, to time, interval
@@ -152,40 +152,40 @@ for key, value in d_scenarios.items(): # Looping through each scenario
                 excel_scenario = "Existing PM"
                 
             if key == 'l_s03':
-                p_scenario = '2-XXXX No-Build' # string of path name for this scenario
-                fn_scenario = "XXXXNo-Build" # string of file name for this scenario
+                p_scenario = '2-Buld1' # string of path name for this scenario
+                fn_scenario = "Build1" # string of file name for this scenario
                 peak_pd = 'AM' # String of peak period for this scenario
-                excel_scenario = "XXXX No-Build PM"
+                excel_scenario = "Build 1 AM"
                 
             if key == 'l_s04':
-                p_scenario = '2-XXXX No-Build' # string of path name for this scenario
-                fn_scenario = "XXXXNo-Build" # string of file name for this scenario
+                p_scenario = '2-Build1' # string of path name for this scenario
+                fn_scenario = "Build1" # string of file name for this scenario
                 peak_pd = 'PM' # String of peak period for this scenario
-                excel_scenario = "XXXX No-Build PM"
+                excel_scenario = "Build 1 PM"
                 
             if key == 'l_s05':
-                p_scenario = '3-XXXX Build1' # string of path name for this scenario
-                fn_scenario = "XXXXBuild1" # string of file name for this scenario
+                p_scenario = '3-Build2' # string of path name for this scenario
+                fn_scenario = "Build2" # string of file name for this scenario
                 peak_pd = 'AM' # String of peak period for this scenario
-                excel_scenario = "XXXX Build1 AM"
+                excel_scenario = "Build 2 AM"
                 
             if key == 'l_s06':
-                p_scenario = '3-XXXX Build1' # string of path name for this scenario
-                fn_scenario = "XXXXBuild1" # string of file name for this scenario
+                p_scenario = '3-Build2' # string of path name for this scenario
+                fn_scenario = "Build2" # string of file name for this scenario
                 peak_pd = 'PM' # String of peak period for this scenario
-                excel_scenario = "XXXX Build1 PM"
+                excel_scenario = "Build 2 PM"
                 
             if key == 'l_s07':
-                p_scenario = '3-XXXX Build2' # string of path name for this scenario
-                fn_scenario = "XXXXBuild2" # string of file name for this scenario
-                peak_pd = 'AM' # String of peak period for this scenario
-                excel_scenario = "XXXX Build2 AM"
+                p_scenario = '' # string of path name for this scenario
+                fn_scenario = "" # string of file name for this scenario
+                peak_pd = '' # String of peak period for this scenario
+                excel_scenario = ""
                 
             if key == 'l_s08':
-                p_scenario = '3-XXXX Build2' # string of path name for this scenario
-                fn_scenario = "XXXXBuild2" # string of file name for this scenario
-                peak_pd = 'PM' # String of peak period for this scenario
-                excel_scenario = "XXXX Build2 PM"
+                p_scenario = '' # string of path name for this scenario
+                fn_scenario = "" # string of file name for this scenario
+                peak_pd = '' # String of peak period for this scenario
+                excel_scenario = ""
                 
             if key == 'l_s09':
                 p_scenario = '' # string of path name for this scenario
