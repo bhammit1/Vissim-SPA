@@ -1,2 +1,5 @@
 This will be populated when the Vissim model is run through Python.
 
+Starting: SanPabloAve_Existing_AM_2021-07-30 at Fri Jul 30 18:54:34 2021
+Finished - 256.9 min
+
