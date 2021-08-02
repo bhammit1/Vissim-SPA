@@ -41,33 +41,53 @@ def Clean_Output_Files(results_path, no_seeds):
     time.sleep(60)  # Wait loop for files to move folders
     
     # Shorten Vehicle Network Performance File
-    fn = glob.glob(os.path.join(save_path,'*Vehicle Network Performance Evaluation Results*'))[0]
-    os.rename(fn,fn.replace('Vehicle Network Performance Evaluation Results', 'Veh Network Perf'))
-    #os.remove(fn)
+    try:
+        fn = glob.glob(os.path.join(save_path,'*Vehicle Network Performance Evaluation Results*'))[0]
+        os.rename(fn,fn.replace('Vehicle Network Performance Evaluation Results', 'Veh Network Perf'))
+    except IndexError:
+        pass
     
     # Shorten Data Collection Point Performance File
-    fn = glob.glob(os.path.join(save_path,'*Data Collection Results*'))[0]
-    os.rename(fn,fn.replace('Data Collection Results', 'DCM'))
+    try:
+        fn = glob.glob(os.path.join(save_path,'*Data Collection Results*'))[0]
+        os.rename(fn,fn.replace('Data Collection Results', 'DCM'))
+    except IndexError:
+        pass
     
     # Shorten Travel Time Results File
-    fn = glob.glob(os.path.join(save_path,'*Vehicle Travel Time Results*'))[0]
-    os.rename(fn,fn.replace('Vehicle Travel Time Results', 'TravTime'))
-    
+    try:
+        fn = glob.glob(os.path.join(save_path,'*Vehicle Travel Time Results*'))[0]
+        os.rename(fn,fn.replace('Vehicle Travel Time Results', 'TravTime'))
+    except IndexError:
+        pass
+
     # Shorten Link Segment Results File
-    fn = glob.glob(os.path.join(save_path,'*Link Segment Results*'))[0]
-    os.rename(fn,fn.replace('Link Segment Results', 'Link'))
-    
+    try:
+        fn = glob.glob(os.path.join(save_path,'*Link Segment Results*'))[0]
+        os.rename(fn,fn.replace('Link Segment Results', 'Link'))
+    except IndexError:
+        pass
+
     # Shorten Node Results File
-    fn = glob.glob(os.path.join(save_path,'*Node Results*'))[0]
-    os.rename(fn,fn.replace('Node Results', 'Node'))
-    
+    try:
+        fn = glob.glob(os.path.join(save_path,'*Node Results*'))[0]
+        os.rename(fn,fn.replace('Node Results', 'Node'))
+    except IndexError:
+        pass
+
     # Shorten Queue Counters File
-    fn = glob.glob(os.path.join(save_path,'*Queue Results*'))[0]
-    os.rename(fn,fn.replace('Queue Results', 'Queue'))
+    try:
+        fn = glob.glob(os.path.join(save_path,'*Queue Results*'))[0]
+        os.rename(fn,fn.replace('Queue Results', 'Queue'))
+    except IndexError:
+        pass
     
     # Shorten Simulation Runs Results File
-    fn = glob.glob(os.path.join(save_path,'*Simulation Runs*'))[0]
-    os.rename(fn,fn.replace('Simulation Runs', 'SimRun'))
+    try:
+        fn = glob.glob(os.path.join(save_path,'*Simulation Runs*'))[0]
+        os.rename(fn,fn.replace('Simulation Runs', 'SimRun'))
+    except IndexError:
+        pass
 
 def main():
     results_path = r'K:\NVA_Transit\110293002_Benning_Streetcar\Production\2b_Traffic\VISSIM\04-MOT\01_Phase 1\AM\05-Outputs\v4test'

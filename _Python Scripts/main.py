@@ -55,11 +55,11 @@ elif define_run == 2:  # Change in MOE Sheet Update in Outputs
     run_excel_macros = True
 
 elif define_run == 3:  #Testing
-    run_vissim = True
-    copy_moe_sheet = True
+    run_vissim = False
+    copy_moe_sheet = False
     transit_veh_records = False
+    clean_output_files = False
     travel_time_plots = True
-    clean_output_files = True
     run_excel_macros = False
 
 # =============================================================================

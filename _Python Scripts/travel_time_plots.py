@@ -63,7 +63,7 @@ def Travel_Time_Plots(TT_ylim, results_path): # NOTE - ONLY WORKS IF MULTIPLE TT
         except: pass
 
 def main():
-    results_path = r'K:\NVA_Transit\110293002_Benning_Streetcar\Production\2b_Traffic\VISSIM\04-MOT\01_Phase 1\PM\05-Outputs\v17'
+    results_path = r'C:\Users\Britton.Hammit\Documents\GitHub\Vissim-SPA\1-Existing\AM\02-Outputs\2021-07-30'
     TT_ylim=2000
     Travel_Time_Plots(TT_ylim, results_path)
 
