@@ -1,0 +1,30 @@
+$VISION
+* File:		C:\Users\Britton.Hammit\Documents\GitHub\Vissim-SPA\1-Existing\AM\02-Outputs\2021-08-02B\SanPabloAve_Existing_AM_2021-08-02B.inpx
+* Comment:	
+* Date:		8/3/2021 1:01:49 AM
+* PTV Vissim:	11.00 [14]
+* 
+* Table: Simulation Runs
+* 
+* NO: No, Number (Unique number of the simulation run)
+* TIMESTAMP: Timestamp, Timestamp (Date and time the simulation starts)
+* RANDSEED: RandSeed, Random seed (Random seed specified in the simulation parameters)
+* STARTDATE: StartDate, Start date (Start date specified in the simulation parameters)
+* STARTTM: StartTm, Start time (Start time specified in the simulation parameters)
+* SIMEND: SimEnd, Simulation end (Time in seconds after the start at which the simulation was ended) [s]
+* VISSIMVER: VissimVer, Vissim version (Program version installed)
+* 
+* No; Timestamp; RandSeed; StartDate; StartTm; SimEnd; VissimVer
+*
+$SIMULATIONRUN:NO;TIMESTAMP;RANDSEED;STARTDATE;STARTTM;SIMEND;VISSIMVER
+1;2021-08-02 18:07:59;100;;00:00:00;9000.0;11.00 - 14 [91844]
+2;2021-08-02 18:48:59;101;;00:00:00;9000.0;11.00 - 14 [91844]
+3;2021-08-02 19:31:18;102;;00:00:00;9000.0;11.00 - 14 [91844]
+4;2021-08-02 20:12:55;103;;00:00:00;9000.0;11.00 - 14 [91844]
+5;2021-08-02 20:53:44;104;;00:00:00;9000.0;11.00 - 14 [91844]
+6;2021-08-02 21:35:00;105;;00:00:00;9000.0;11.00 - 14 [91844]
+7;2021-08-02 22:17:08;106;;00:00:00;9000.0;11.00 - 14 [91844]
+8;2021-08-02 22:59:31;107;;00:00:00;9000.0;11.00 - 14 [91844]
+9;2021-08-02 23:40:04;108;;00:00:00;9000.0;11.00 - 14 [91844]
+10;2021-08-03 00:22:32;109;;00:00:00;9000.0;11.00 - 14 [91844]
+

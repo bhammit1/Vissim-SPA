@@ -11,7 +11,7 @@ from vissim_run_functions import *
 # =============================================================================
 # INPUT: Indicate versions to run for each scenario:
 # =============================================================================
-l_s01 = ['2021-07-30'] # 1-Existing AM
+l_s01 = ['2021-08-02B'] # 1-Existing AM
 l_s02 = [] # 1-Existing PM
 l_s03 = [] # 2-Build 1 AM
 l_s04 = [] # 2-Build 1 PM
